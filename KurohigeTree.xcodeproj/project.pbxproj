@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		79D7EBF2164134650054051F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79D7EBF1164134650054051F /* UIKit.framework */; };
+		79D7EBF4164134650054051F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79D7EBF3164134650054051F /* Foundation.framework */; };
+		79D7EBF6164134650054051F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79D7EBF5164134650054051F /* CoreGraphics.framework */; };
+		79D7EBF8164134650054051F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79D7EBF7164134650054051F /* CoreData.framework */; };
+		79D7EBFE164134650054051F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 79D7EBFC164134650054051F /* InfoPlist.strings */; };
+		79D7EC00164134650054051F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 79D7EBFF164134650054051F /* main.m */; };
+		79D7EC04164134650054051F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 79D7EC03164134650054051F /* AppDelegate.m */; };
+		79D7EC07164134650054051F /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79D7EC05164134650054051F /* MainStoryboard.storyboard */; };
+		79D7EC0A164134650054051F /* KurohigeTree.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 79D7EC08164134650054051F /* KurohigeTree.xcdatamodeld */; };
+		79D7EC0D164134650054051F /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79D7EC0C164134650054051F /* MainViewController.m */; };
+		79D7EC10164134650054051F /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79D7EC0F164134650054051F /* FlipsideViewController.m */; };
+		79D7EC18164134660054051F /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79D7EC17164134660054051F /* SenTestingKit.framework */; };
+		79D7EC19164134660054051F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79D7EBF1164134650054051F /* UIKit.framework */; };
+		79D7EC1A164134660054051F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79D7EBF3164134650054051F /* Foundation.framework */; };
+		79D7EC1B164134660054051F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79D7EBF7164134650054051F /* CoreData.framework */; };
+		79D7EC23164134660054051F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 79D7EC21164134660054051F /* InfoPlist.strings */; };
+		79D7EC26164134660054051F /* KurohigeTreeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79D7EC25164134660054051F /* KurohigeTreeTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		79D7EC1C164134660054051F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79D7EBE4164134650054051F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79D7EBEC164134650054051F;
+			remoteInfo = KurohigeTree;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		79D7EBED164134650054051F /* KurohigeTree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KurohigeTree.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		79D7EBF1164134650054051F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		79D7EBF3164134650054051F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		79D7EBF5164134650054051F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		79D7EBF7164134650054051F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		79D7EBFB164134650054051F /* KurohigeTree-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KurohigeTree-Info.plist"; sourceTree = "<group>"; };
+		79D7EBFD164134650054051F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		79D7EBFF164134650054051F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		79D7EC01164134650054051F /* KurohigeTree-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KurohigeTree-Prefix.pch"; sourceTree = "<group>"; };
+		79D7EC02164134650054051F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		79D7EC03164134650054051F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		79D7EC06164134650054051F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		79D7EC09164134650054051F /* KurohigeTree.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KurohigeTree.xcdatamodel; sourceTree = "<group>"; };
+		79D7EC0B164134650054051F /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		79D7EC0C164134650054051F /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		79D7EC0E164134650054051F /* FlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlipsideViewController.h; sourceTree = "<group>"; };
+		79D7EC0F164134650054051F /* FlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipsideViewController.m; sourceTree = "<group>"; };
+		79D7EC16164134660054051F /* KurohigeTreeTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KurohigeTreeTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		79D7EC17164134660054051F /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		79D7EC20164134660054051F /* KurohigeTreeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KurohigeTreeTests-Info.plist"; sourceTree = "<group>"; };
+		79D7EC22164134660054051F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		79D7EC24164134660054051F /* KurohigeTreeTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KurohigeTreeTests.h; sourceTree = "<group>"; };
+		79D7EC25164134660054051F /* KurohigeTreeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KurohigeTreeTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79D7EBEA164134650054051F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79D7EBF2164134650054051F /* UIKit.framework in Frameworks */,
+				79D7EBF4164134650054051F /* Foundation.framework in Frameworks */,
+				79D7EBF6164134650054051F /* CoreGraphics.framework in Frameworks */,
+				79D7EBF8164134650054051F /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79D7EC12164134660054051F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79D7EC18164134660054051F /* SenTestingKit.framework in Frameworks */,
+				79D7EC19164134660054051F /* UIKit.framework in Frameworks */,
+				79D7EC1A164134660054051F /* Foundation.framework in Frameworks */,
+				79D7EC1B164134660054051F /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		79D7EBE2164134650054051F = {
+			isa = PBXGroup;
+			children = (
+				79D7EBF9164134650054051F /* KurohigeTree */,
+				79D7EC1E164134660054051F /* KurohigeTreeTests */,
+				79D7EBF0164134650054051F /* Frameworks */,
+				79D7EBEE164134650054051F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		79D7EBEE164134650054051F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79D7EBED164134650054051F /* KurohigeTree.app */,
+				79D7EC16164134660054051F /* KurohigeTreeTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79D7EBF0164134650054051F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				79D7EBF1164134650054051F /* UIKit.framework */,
+				79D7EBF3164134650054051F /* Foundation.framework */,
+				79D7EBF5164134650054051F /* CoreGraphics.framework */,
+				79D7EBF7164134650054051F /* CoreData.framework */,
+				79D7EC17164134660054051F /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		79D7EBF9164134650054051F /* KurohigeTree */ = {
+			isa = PBXGroup;
+			children = (
+				79D7EC02164134650054051F /* AppDelegate.h */,
+				79D7EC03164134650054051F /* AppDelegate.m */,
+				79D7EC05164134650054051F /* MainStoryboard.storyboard */,
+				79D7EC0B164134650054051F /* MainViewController.h */,
+				79D7EC0C164134650054051F /* MainViewController.m */,
+				79D7EC0E164134650054051F /* FlipsideViewController.h */,
+				79D7EC0F164134650054051F /* FlipsideViewController.m */,
+				79D7EC08164134650054051F /* KurohigeTree.xcdatamodeld */,
+				79D7EBFA164134650054051F /* Supporting Files */,
+			);
+			path = KurohigeTree;
+			sourceTree = "<group>";
+		};
+		79D7EBFA164134650054051F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				79D7EBFB164134650054051F /* KurohigeTree-Info.plist */,
+				79D7EBFC164134650054051F /* InfoPlist.strings */,
+				79D7EBFF164134650054051F /* main.m */,
+				79D7EC01164134650054051F /* KurohigeTree-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		79D7EC1E164134660054051F /* KurohigeTreeTests */ = {
+			isa = PBXGroup;
+			children = (
+				79D7EC24164134660054051F /* KurohigeTreeTests.h */,
+				79D7EC25164134660054051F /* KurohigeTreeTests.m */,
+				79D7EC1F164134660054051F /* Supporting Files */,
+			);
+			path = KurohigeTreeTests;
+			sourceTree = "<group>";
+		};
+		79D7EC1F164134660054051F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				79D7EC20164134660054051F /* KurohigeTreeTests-Info.plist */,
+				79D7EC21164134660054051F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		79D7EBEC164134650054051F /* KurohigeTree */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79D7EC29164134660054051F /* Build configuration list for PBXNativeTarget "KurohigeTree" */;
+			buildPhases = (
+				79D7EBE9164134650054051F /* Sources */,
+				79D7EBEA164134650054051F /* Frameworks */,
+				79D7EBEB164134650054051F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KurohigeTree;
+			productName = KurohigeTree;
+			productReference = 79D7EBED164134650054051F /* KurohigeTree.app */;
+			productType = "com.apple.product-type.application";
+		};
+		79D7EC15164134660054051F /* KurohigeTreeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79D7EC2C164134660054051F /* Build configuration list for PBXNativeTarget "KurohigeTreeTests" */;
+			buildPhases = (
+				79D7EC11164134660054051F /* Sources */,
+				79D7EC12164134660054051F /* Frameworks */,
+				79D7EC13164134660054051F /* Resources */,
+				79D7EC14164134660054051F /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79D7EC1D164134660054051F /* PBXTargetDependency */,
+			);
+			name = KurohigeTreeTests;
+			productName = KurohigeTreeTests;
+			productReference = 79D7EC16164134660054051F /* KurohigeTreeTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79D7EBE4164134650054051F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Sayuri Anbe";
+			};
+			buildConfigurationList = 79D7EBE7164134650054051F /* Build configuration list for PBXProject "KurohigeTree" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 79D7EBE2164134650054051F;
+			productRefGroup = 79D7EBEE164134650054051F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79D7EBEC164134650054051F /* KurohigeTree */,
+				79D7EC15164134660054051F /* KurohigeTreeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79D7EBEB164134650054051F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79D7EBFE164134650054051F /* InfoPlist.strings in Resources */,
+				79D7EC07164134650054051F /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79D7EC13164134660054051F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79D7EC23164134660054051F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		79D7EC14164134660054051F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79D7EBE9164134650054051F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79D7EC00164134650054051F /* main.m in Sources */,
+				79D7EC04164134650054051F /* AppDelegate.m in Sources */,
+				79D7EC0A164134650054051F /* KurohigeTree.xcdatamodeld in Sources */,
+				79D7EC0D164134650054051F /* MainViewController.m in Sources */,
+				79D7EC10164134650054051F /* FlipsideViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79D7EC11164134660054051F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79D7EC26164134660054051F /* KurohigeTreeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		79D7EC1D164134660054051F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79D7EBEC164134650054051F /* KurohigeTree */;
+			targetProxy = 79D7EC1C164134660054051F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		79D7EBFC164134650054051F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79D7EBFD164134650054051F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		79D7EC05164134650054051F /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79D7EC06164134650054051F /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		79D7EC21164134660054051F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79D7EC22164134660054051F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		79D7EC27164134660054051F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		79D7EC28164134660054051F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		79D7EC2A164134660054051F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KurohigeTree/KurohigeTree-Prefix.pch";
+				INFOPLIST_FILE = "KurohigeTree/KurohigeTree-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		79D7EC2B164134660054051F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KurohigeTree/KurohigeTree-Prefix.pch";
+				INFOPLIST_FILE = "KurohigeTree/KurohigeTree-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		79D7EC2D164134660054051F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KurohigeTree.app/KurohigeTree";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KurohigeTree/KurohigeTree-Prefix.pch";
+				INFOPLIST_FILE = "KurohigeTreeTests/KurohigeTreeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		79D7EC2E164134660054051F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KurohigeTree.app/KurohigeTree";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KurohigeTree/KurohigeTree-Prefix.pch";
+				INFOPLIST_FILE = "KurohigeTreeTests/KurohigeTreeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79D7EBE7164134650054051F /* Build configuration list for PBXProject "KurohigeTree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79D7EC27164134660054051F /* Debug */,
+				79D7EC28164134660054051F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79D7EC29164134660054051F /* Build configuration list for PBXNativeTarget "KurohigeTree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79D7EC2A164134660054051F /* Debug */,
+				79D7EC2B164134660054051F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		79D7EC2C164134660054051F /* Build configuration list for PBXNativeTarget "KurohigeTreeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79D7EC2D164134660054051F /* Debug */,
+				79D7EC2E164134660054051F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		79D7EC08164134650054051F /* KurohigeTree.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				79D7EC09164134650054051F /* KurohigeTree.xcdatamodel */,
+			);
+			currentVersion = 79D7EC09164134650054051F /* KurohigeTree.xcdatamodel */;
+			path = KurohigeTree.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 79D7EBE4164134650054051F /* Project object */;
+}
