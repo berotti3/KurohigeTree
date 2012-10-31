@@ -10,8 +10,11 @@
 
 #import <CoreData/CoreData.h>
 
-@interface MainViewController : UIViewController <FlipsideViewControllerDelegate>
+@interface MainViewController : UIViewController <FlipsideViewControllerDelegate>{
+    CGPoint pickPos;
+}
 
 @property (strong, nonatomic) NSManagedObjectContext *managedObjectContext;
+@property (weak, nonatomic) IBOutlet UIImageView *treeImage;
 
 @end

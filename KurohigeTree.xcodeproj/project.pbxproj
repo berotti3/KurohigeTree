@@ -24,6 +24,8 @@
 		79D7EC1B164134660054051F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79D7EBF7164134650054051F /* CoreData.framework */; };
 		79D7EC23164134660054051F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 79D7EC21164134660054051F /* InfoPlist.strings */; };
 		79D7EC26164134660054051F /* KurohigeTreeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79D7EC25164134660054051F /* KurohigeTreeTests.m */; };
+		79D7EC39164146610054051F /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 79D7EC38164146610054051F /* star.png */; };
+		79D7EC3B164146950054051F /* 017106 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 79D7EC3A164146950054051F /* 017106 2.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +62,8 @@
 		79D7EC22164134660054051F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		79D7EC24164134660054051F /* KurohigeTreeTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KurohigeTreeTests.h; sourceTree = "<group>"; };
 		79D7EC25164134660054051F /* KurohigeTreeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KurohigeTreeTests.m; sourceTree = "<group>"; };
+		79D7EC38164146610054051F /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
+		79D7EC3A164146950054051F /* 017106 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "017106 2.jpg"; path = "../017106 2.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,8 +127,10 @@
 			isa = PBXGroup;
 			children = (
 				79D7EC02164134650054051F /* AppDelegate.h */,
+				79D7EC3A164146950054051F /* 017106 2.jpg */,
 				79D7EC03164134650054051F /* AppDelegate.m */,
 				79D7EC05164134650054051F /* MainStoryboard.storyboard */,
+				79D7EC38164146610054051F /* star.png */,
 				79D7EC0B164134650054051F /* MainViewController.h */,
 				79D7EC0C164134650054051F /* MainViewController.m */,
 				79D7EC0E164134650054051F /* FlipsideViewController.h */,
@@ -238,6 +244,8 @@
 			files = (
 				79D7EBFE164134650054051F /* InfoPlist.strings in Resources */,
 				79D7EC07164134650054051F /* MainStoryboard.storyboard in Resources */,
+				79D7EC39164146610054051F /* star.png in Resources */,
+				79D7EC3B164146950054051F /* 017106 2.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -450,6 +458,7 @@
 				79D7EC2B164134660054051F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		79D7EC2C164134660054051F /* Build configuration list for PBXNativeTarget "KurohigeTreeTests" */ = {
 			isa = XCConfigurationList;
@@ -458,6 +467,7 @@
 				79D7EC2E164134660054051F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
