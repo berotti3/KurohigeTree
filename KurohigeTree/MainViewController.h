@@ -9,12 +9,16 @@
 #import "FlipsideViewController.h"
 
 #import <CoreData/CoreData.h>
+#import <Twitter/Twitter.h>
+#import <QuartzCore/QuartzCore.h>
 
 @interface MainViewController : UIViewController <FlipsideViewControllerDelegate>{
     CGPoint pickPos;
+    UIImageView *bombview;
+    UIImage *Tweetimage;
+    UIImage *selectedIcon;
 }
 
 @property (strong, nonatomic) NSManagedObjectContext *managedObjectContext;
-@property (weak, nonatomic) IBOutlet UIImageView *treeImage;
 
 @end
